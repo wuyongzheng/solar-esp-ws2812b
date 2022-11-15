@@ -25,16 +25,17 @@ In the code, before setting the power pin low, I have to deconstruct the
 ## My ESP8266 and BMS Perfboards
 
 Front | Back
+:-------------------------:|:-------------------------:
 ![Night Light](/circuit-front.jpg) | ![Night Light](/circuit-back.jpg)
 
-The ESP32 perfboard design using DIY Layout Creator.
+The ESP32 perfboard designed using DIY Layout Creator.
 ![Night Light](/esp-schematic.png)
 
 ## Solar Pannels
 
 I connected six 68x37mm solar pannels in parallel. Each solar pannel is rated
-5.5V 150mA.
-Under direct sunlight, my measurement says it can give 5.67V in open circuit,
+5.5V 150mA by the seller.
+Under direct sunlight, my measurement says it gives 5.67V in open circuit,
 and 4.2V with 210mA.
 ![Night Light](/solar-back.jpg)
 
