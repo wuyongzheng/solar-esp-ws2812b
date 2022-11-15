@@ -4,12 +4,6 @@
 
 This is a DIY project using solar pannels to power decorative night lights.
 
-![Solar Pannels Daytime](/solar-day.jpg)
-At daytime, the solar pannels charges two 18650 batteries.
-
-![Night Light](/night-light.jpg)
-In the evening, the batteries power up an ESP8266 IC which controls two WS2812B LED strips.
-
 At daytime, the solar pannels charges two 18650 batteries. | In the evening, the batteries power up an ESP8266 IC which controls two WS2812B LED strips.
 :-------------------------:|:-------------------------:
 ![Solar Pannels Daytime](/solar-day.jpg)  |  ![Night Light](/night-light.jpg)
