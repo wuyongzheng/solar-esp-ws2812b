@@ -10,13 +10,24 @@ At daytime, the solar pannels charges two 18650 batteries. | In the evening, the
 
 ## Circuit
 
-The system consists of 4 parts: solar pannels, battery/BMS, ESP8266 IC, and WS2812B LED strips.
+The system consists of 4 parts: solar pannels, battery/BMS, ESP8266 IC, and
+WS2812B LED strips.
+
+The LED strips are completely cut off from power using a PMOS controlled by ESP.
+However, there is a caveat.
+If the power pin (GPIO4) is low (meaning turn off LEDs),
+the data pin (GPIO5) cannot be high, otherwise may break the LEDs.
+In the code, before setting the power pin low, I have to deconstruct the
+`Adafruit_NeoPixel` object and set data pin to float.
+
 ![Night Light](/schematic.png)
 
 ## My ESP8266 and BMS Perfboards
 
-![Night Light](/circuit-front.jpg)
-![Night Light](/circuit-back.jpg)
+Front | Back
+![Night Light](/circuit-front.jpg) | ![Night Light](/circuit-back.jpg)
+
+The ESP32 perfboard design using DIY Layout Creator.
 ![Night Light](/esp-schematic.png)
 
 ## Solar Pannels
