@@ -45,23 +45,26 @@ I don't give Aliexpress or Amazon links because they expire quickly.
 The items can be easily searched with the description and pictures.
 Resistors, capactors, wires, connectors, perfboards, buttons and switchs are
 ignored.
+The total BOM price is about 60 USD.
 
 | Item | Price (USD) | Details | Picture |
 | --- | --- | --- | --- |
 | RGB LED Strip | 5.00 x 2 | WS2812B RGBIC Christmas Lights LED String 5 m 50 leds WS2812 Birthday Party Room Decoration Light Addressable Individually DC5V | ![RGB LED Strip](/bom-led.jpeg) |
-| TP4056 Li-ion charger | ~ 0.50 | Type-c/Micro/Mini USB 5V 1A 18650 TP4056 Lithium Battery Charger Module Charging Board With Protection Dual Functions 1A Li-ion | ![RGB LED Strip](/bom-bms.jpeg) |
+| TP4056 Li-ion charger | 0.50 | Type-c/Micro/Mini USB 5V 1A 18650 TP4056 Lithium Battery Charger Module Charging Board With Protection Dual Functions 1A Li-ion | ![RGB LED Strip](/bom-bms.jpeg) |
 | 140x45mm solar pannel | 2.5 x 6 | 4V 5.5V 5V 6V 7V 10V 12V Mono/polycrystalline solar panel battery module Epoxy board PET power generation board model | ![RGB LED Strip](/bom-solar.jpeg) |
 | ESP-12F | 2.00 | I'm using the bare module instead of development board for compactness | ![RGB LED Strip](/bom-esp.jpeg) |
-| 18650 Battery case | ~1.50 | Can hold two batteries. Can be configured both serial and parallel.
+| 18650 Battery case | 1.50 | Two batteries can be configured in both serial and parallel. |
 | 18650 Battery | 10.00 x 2 |
 | HT7333 | < 1.00 | Holtek Low Power Consumption LDO |
-| NDP6020P | ~ 1.50 |
+| NDP6020P | 1.50 | P-Channel Logic Level MOSFET
 | 2N3904 | < 0.10 |
 | BAT85 | < 0.10 x 6 | Small Signal Schottky Diode |
 
 ## Software
 
-TODO
+`esp8266-decolight2.ino` is the code for ESP8266.
+There is also a server running `decolight-server.c` providing time service and
+power cycle analysis.
 
 ## Power Consumption
 
