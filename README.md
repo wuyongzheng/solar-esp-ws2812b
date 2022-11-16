@@ -41,12 +41,22 @@ and 4.2V with 210mA.
 
 ## BOM
 
-| Item | Price (USD) | Details |
-| --- | --- | --- |
-| RGB LED Strip | 2.65 x 6 | ![RGB LED Strip](/bom-led.jpeg) WS2812B RGBIC Christmas Lights LED String 5 m 50 leds WS2812 Birthday Party Room Decoration Light Addressable Individually DC5V |
-| TP4056 Li-ion charger | < 1.00 | ![RGB LED Strip](/bom-bms.jpeg) Type-c/Micro/Mini USB 5V 1A 18650 TP4056 Lithium Battery Charger Module Charging Board With Protection Dual Functions 1A Li-ion |
-| ESP-12F | 1.67 | ![RGB LED Strip](/bom-esp.jpeg) |
-| 140x45mm solar pannel | 2.65 x 6 | ![RGB LED Strip](/bom-solar.jpeg) |
+I don't give Aliexpress or Amazon links because they expire quickly.
+The items can be easily searched with the description and pictures.
+Resistors, capactors, wires, connectors, buttons and switchs are ignored.
+
+| Item | Price (USD) | Details | Picture |
+| --- | --- | --- | --- |
+| RGB LED Strip | 2.65 x 6 | WS2812B RGBIC Christmas Lights LED String 5 m 50 leds WS2812 Birthday Party Room Decoration Light Addressable Individually DC5V | ![RGB LED Strip](/bom-led.jpeg) |
+| TP4056 Li-ion charger | < 1.00 | Type-c/Micro/Mini USB 5V 1A 18650 TP4056 Lithium Battery Charger Module Charging Board With Protection Dual Functions 1A Li-ion | ![RGB LED Strip](/bom-bms.jpeg) |
+| 140x45mm solar pannel | 2.65 x 6 | 4V 5.5V 5V 6V 7V 10V 12V Mono/polycrystalline solar panel battery module Epoxy board PET power generation board model | ![RGB LED Strip](/bom-solar.jpeg) |
+| ESP-12F | 1.67 | I'm using the bare module instead of development board for compactness | ![RGB LED Strip](/bom-esp.jpeg) |
+| 18650 Battery case | ~1.50 |
+| 18650 Battery | 10.00 x 2 |
+| HT7333 | < 1.00 |
+| NDP6020P | ~1.50 |
+| 2N3904 | < 0.10 |
+| BAT85 | < 0.10 x 6|
 
 # Power Consumption
 
